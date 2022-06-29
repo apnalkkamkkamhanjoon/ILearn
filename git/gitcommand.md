@@ -21,5 +21,6 @@
 <summary>github 공유</summary>
 
 ```$ git push``` - 원격 저장소 저장<br>
-```$ git clone URL``` - 원격 저장소 복제<br>
+```$ git clone``` - 원격 저장소 복제<br>
+```$ git pull``` - 원격 저장소 내용 가져오기
 </details>
