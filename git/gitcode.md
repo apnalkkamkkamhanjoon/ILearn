@@ -1,26 +1,85 @@
 # __git__
-## __git 명령어 정리__
+## __git 명령어__
 <details>
-<summary>기본명령어</summary>
+<summary>새로운 저장소 생성</summary>
 
-```$ git init``` - 저장소 만들기<br>
-```$ git status``` - 현재 상태 확인<br>
-```$ git add``` - 현재 상태 추적<br>
-```$ git commit -m "자신이 쓰고싶은 내용"``` - 현재 상태 저장<br>
-```$ git log``` - 이력 확인
-</details>
-<details>
-<summary>작업 분기</summary>
-
-```$git switch -c``` - 브랜치 생성<br>
-```git switch``` - 브랜치 변경<br>
-```git merge``` - 브랜치 합치기<br>
+```
+$ git init
+```
 </details>
 
 <details>
-<summary>github 공유</summary>
+<summary>저장소 복제/다운로드</summary>
 
-```$ git push``` - 원격 저장소 저장<br>
-```$ git clone``` - 원격 저장소 복제<br>
-```$ git pull``` - 원격 저장소 내용 가져오기
+```
+$ git clone <https:.. URL>	
+$ git clone /로컬/저장소/경로
+$ git clone 사용자명@호스트:/원격/저장소/경로
+```
+</details>
+
+<details>
+<summary>추가 및 commit</summary>
+
+```
+$ git add <파일명>
+$ git add *
+$ git add -A
+$ git commit -m "커밋 메시지"
+$ git status
+```
+</details>
+
+<details>
+<summary>branch 작업</summary>
+
+```
+$ git branch
+$ git branch <브랜치이름>
+$ git checkout -b <브랜치이름>
+$ git checkout master
+$ git branch -d <브랜치이름>
+$ git push origin <브랜치이름>
+$ git push -u < remote > <브랜치이름>
+$ git pull < remote > <브랜치이름>
+```
+</details>
+
+<details>
+<summary>변경 사항 발행</summary>
+
+```
+$ git push origin master
+$ git push < remote > <브랜치이름>
+$ git push -u < remote > <브랜치이름>
+$ git remote add origin <등록된 원격 서버 주소>
+$ git remote remove <등록된 클라우드 주소>
+```
+</details>
+<details>
+<summary>갱신 및 병합</summary>
+
+```
+$ git pull
+$ git merge <다른 브랜치이름>
+$ git add <파일명>
+$ git diff <브랜치이름><다른 브랜치이름>
+```
+</details>
+
+<details>
+<summary>tag 작업</summary>
+
+```
+$ git log
+```
+</details>
+
+<details>
+<summary>로컬 변경사항 return 작업</summary>
+
+```
+$ git checkout -- <파일명>
+$ git fetch origin
+```
 </details>
