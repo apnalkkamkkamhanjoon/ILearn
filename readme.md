@@ -9,14 +9,15 @@
 시작일 : `2022/04/20`
 ### git
 * [git의 정의](git/git.md)
-* [git 명령어](git/gitcommand.md)
+* [git 명령어](git/gitcode.md)
 ### html
 * [html의 정의](html/html.md)
-* [html 태그](html/htmlcommand.md)
+* [html 태그](html/htmlcode.md)
 ### javascript
 * [javascript의 정의](javascript/javascript.md)
 ### java
 * [java의 정의](java/java.md)
+* [java의 명령어](java/javacode.md)
 ### react
 * [react의 정의](react/react.md)
 ### node.js

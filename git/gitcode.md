@@ -1,5 +1,5 @@
 # __git__
-## __git 명령어 간단 정리__
+## __git 명령어 정리__
 <details>
 <summary>기본명령어</summary>
 
