@@ -8,9 +8,9 @@
 # 기록
 시작일 : `2022/04/20`
 ### git
-* [git의 정의](git/git.md)
-* [git 명령어](git/gitcode.md)
-* [CLI 명령어](git/CLIcode.md)
+* [git](git/git.md)
+### CLI
+* [CLI](CLI/CLI.md)
 ### html
 * [html의 정의](html/html.md)
 * [html 세부정보](html/htmlcode.md)
