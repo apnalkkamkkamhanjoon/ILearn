@@ -136,3 +136,51 @@
 ```
 </details>
 
+<details>
+<summary>레이블 붙이기</summary>
+
+```
+<label>
+```
+</details>
+
+<details>
+<summary>< input ></summary>
+
+```
+속성값
+text	한 줄 텍스트
+password	비밀번호
+search	검색
+url	url
+email	이메일 주소
+tel	전화번호
+checkbox	체크박스 (중복 체크)
+radio	라디오 버튼 (unique 체크)
+number	숫자 스핀 박스(버튼으로 숫자 조절)
+range	숫자 슬라이드 막대
+date	local - 연, 월, 일
+month	local - 연, 월
+week	local - 연, 주
+time	local - 시, 분, 초, 분할 초
+datetime	UTC - 연, 월, 일, 시, 분, 초, 분할 초
+datetime-local	local - 연, 월, 일, 시, 분, 초, 분할 초
+submit	전송 버튼
+reset	리셋 버튼
+image	submit 버튼 이미지
+button	일반 버튼
+file	파일 첨부 버튼
+hidden	사용자에게 보이지 않는 값 필드
+```
+</details>
+
+<details>
+<summary>< input >이외의 주요 태그들</summary>
+
+```
+<textarea>
+<select>
+<datalist>
+<button>
+```
+</details>
