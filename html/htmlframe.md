@@ -1,4 +1,5 @@
 # __html의 기본 구조__
+
 ```
 <!DOCTYPE html>
 <html lang="en">
