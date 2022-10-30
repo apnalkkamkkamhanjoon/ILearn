@@ -10,7 +10,7 @@ UNIX는 1960년대 AT&T 벨연구소, MIT, General Electric이 공동 개발한 
 - 표준 입 º 출력을 통해 명령어들이 파이프라인으로 연결된다.
 
 # UNIX 시스템의 구성
-<img src="UNIX.jfif" width="400px" height="300px"></img><br/>
+<img src="img/UNIX.jfif" width="400px" height="300px"></img><br/>
 ```
 커널
 - UNIX의 가장 핵심적인 부분임
