@@ -140,3 +140,78 @@ careers.push("Archer");
 careers.push("Wizard");
 ```
 
+### 배열과 관련된 메소드
+```Javascript
+var careers = ["Warroir", "Archer", "Wizard"];
+console.log("total careers : " + careers.length);
+```
+```Javascript
+total careers : 3
+```
+`length`는 메서드가 아니다. 자바스크립트에서 `Array`는 하나의 객체이며 `length`는 `Array`가 가진 멤버 변수다. 배열의 길이가 필요할 때마다 길이를 읽어오는 것 보단 O(N) 길이를 가지고 있는게 O(1) 효율적일 테니까.
+
+```Javascript
+var careers = ["Warroir", "Archer", "Wizard"];
+console.log("careers : " + careers.join(", "));
+```
+```Javascript
+careers : Warrior, Archer, Wizard
+```
+`join`은 배열을 붙여 하나의 문자열로 반들어 준다.
+
+```Javascript
+var careers = ["Warroir", "Archer", "Wizard"];
+console.log("careers : " + careers.reverse().join(', '));
+```
+```Javascript
+careers : Warrior, Archer, Wizard
+```
+`reverse`는 배열을 반대로 뒤집는 역할 한다.
+
+```Javascript
+var careers = ["Warroir", "Archer", "Wizard"];
+console.log("careers : " + careers.sort().join(', '));
+```
+```Javascript
+careers : Warrior, Archer, Wizard
+```
+`sort`는 배열을 정리한다. 현재는 알파뱃 순서대로 정렬되고 있다. `sort`에 함수를 전달하면 자신이 원하는 방식대로 정렬할 수 있다.
+
+```Javascript
+var careers = ["Warroir", "Archer", "Wizard"];
+var careersOnDlc = ["Assassin", "Samurai"]
+console.log("careers : " + careers.concat(carrersOnDlc).join(', '));
+```
+```Javascript
+careers : Warrior, Archer, Wizard, Assassin, Samurai
+```
+`concat`은 두 배열을 합쳐주는 역할을 한다.
+
+```Javascript
+var careers = ["Warroir", "Archer", "Wizard"];
+var x = carrers.push("Devil", "Outlaw");
+console.log("total careers after push : " + x);
+
+var y = careers.pop();
+console.log("pop career : " + y);
+```
+```Javascript
+total careers after push : 5
+pop careers : Outlaw
+```
+`push`와 `pop`은 자료구조 `Stack`에서 다뤄지며 여기서도 동일한 기능을 수행한다. `push`는 맨 뒤에 요소를 삽입 `pop`은 맨 뒤 요소를 꺼내는 것이다. 주로 팬케이크에 비유되곤 한다.
+
+```Javascript
+var careers = ["Warrior", "Archer", "Wizard"];
+
+var x = careers.shift();
+console.log("shift career : " + x);
+
+var y = careers.unshift("Knight")
+console.log("total careers after unshift : " + y);
+```
+```Javascript
+shift carrer : Warrior
+total carrers after unshift : 3
+```
+`shift`는 맨 앞의 요소를 빼는 기능을, `unshift`는 맨 앞에 요소를 삽입하는 기능을 한다.
