@@ -215,3 +215,119 @@ shift carrer : Warrior
 total carrers after unshift : 3
 ```
 `shift`는 맨 앞의 요소를 빼는 기능을, `unshift`는 맨 앞에 요소를 삽입하는 기능을 한다.
+
+# 6. 오브젝트(Object)
+구조체(struct)처럼 내부에 여러 변수를 가질 수 있고 클래스(class)처럼 내부에 메소드를 포함하고 있는 형식이다. JSON이라고 많이 알려진 형식이다.
+
+### 오브젝트의 선언
+```Javascript
+var obj = new Object();
+var obj = {};
+```
+
+### 변수를 가진 오브젝트
+hp와 mp를 가진 player를 생성해보자.
+```Javascript
+var player = {};
+player.hp = 100;
+player.mp = 300;
+```
+
+### 메소드를 가진 오브젝트
+플레이어가 후두러 맞는(?) 기능을 넣어보자
+```Javascript
+var player = {
+    hp: 100,
+    mp: 300,
+    hit: function (damage) {
+        this.hp -= damage;
+        console.log('player hit damage : ' + damage);
+        return this.isDie();
+    },
+    isDie: function () {
+        if (this.hp <= 0) {
+            console.log('player is die...');
+            return true;
+        }
+        return false;
+    }
+};
+
+player.hit(150);
+console.log('player left hp : ' + player.hp);
+```
+```Javascript
+player hit damage : 150
+player is die...
+player left hp : -50
+```
+
+### 오브젝트 할당
+위는 플레이어 객체가 선언됨과 동시에 사용되고 있다. 만일 클래스 혹은 구조체처럼 단지 구조만 선언하고 싶은 경우엔 어떻게 표현할 수 있을까? 오브젝트를 함수로 선언하면 된다.
+```Javascript
+var Player = function(name){
+    var name = name;
+    var hp = 100;
+    var mp = 300;
+
+    return{
+        hit: function (damage) {
+            hp -= damage;
+            console.log(name + ' hit damage : ' + damage);
+            return this.isDie();
+        },
+        isDie: function () {
+            if (hp <= 0) {
+                console.log(name + ' is die...');
+                return true;
+            }
+            return false;
+        }
+    }
+}
+
+var medic = new Player('medic');
+medic.hit(50);
+// medic hit damage : 50
+
+var fireBet = new Player('fireBet');
+fireBet.hit(100);
+// fireBet hit damage : 100
+// fireBet is die...
+```
+위는 클로저라는 개념을 응용한 방식이다. 위와 같이 선언하면 하나의 객체를 여러 변수에서 할당받아 사용할 수 있다. 다만 이 경우 같은 기능을 하는 함수가 변수마다 새로 할당되는 문제가 발생한다. 이럴때는 `prototype`을 사용하면 객체끼리 공유하는 함수를 만들 수 있다.
+```Javascript
+var Player = function(name) {
+    this.name = name;
+    this.hp = 100;
+    this.mp = 300;
+}
+
+Player.prototype.hit = function (damage) {
+    this.hp -= damage;
+    console.log(this.name + ' hit damage : ' + damage);
+    return this.isDie();
+}
+
+Player.prototype.isDie = function () {
+    if (this.hp <= 0) {
+        console.log(this.name + ' is die...');
+        return true;
+    }
+    return false;
+}
+
+var medic = new Player('medic');
+medic.hit(50);
+// medic hit damage : 50
+
+var fireBet = new Player('fireBet');
+fireBet.hit(100);
+// fireBet hit damage : 100
+// fireBet is die...
+```
+다만 위 코드에서는 프로그래머 혹은 사용자가 `medic.hp` 변수를 접근이 가능하다.
+```Javascript
+console.log(medic.hp)
+// 50
+```
