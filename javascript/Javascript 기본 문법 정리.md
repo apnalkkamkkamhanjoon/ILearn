@@ -467,3 +467,28 @@ console.log(welcome.replace(/ /gi, "-"));
 console.log(welcome.slice(-3));
 // 맨 뒤에 3글자만 가져온다.
 ```
+
+# 9. 수학 연산
+Math라는 기능을 이용하여 사용할 수 있는 연산자들이다.
+```Javascript
+Math.abs(-3);
+// Math.abs(n) : n을 절댓값으로 바꾼다.
+
+Math.ceil(3.1);
+// Math.ceil(n) : n값을 올림한다.
+
+Math.floor(3.9);
+// Math.floor(n) : n값을 내림한다.
+
+Math.round(3.5);
+// Math.round(n) : n값을 반올림한다.
+
+var a = Math.random();
+// Math.random() : 난수를 생성한다.
+
+var b = Math.random()*10+10;
+// Math.random()*x+y : y~x+y 범위에서 난수가 생성된다.
+
+var c = Math.floor(Math.random() * (max - min)) + min;
+// min 부터 max - 1 까지 범위의 난수
+```
