@@ -331,3 +331,91 @@ fireBet.hit(100);
 console.log(medic.hp)
 // 50
 ```
+
+# 7. 반복문
+반복문이 이렇게 아래에 나오는 이유는 위에서 얻은 개념으로 반복문을 더욱 효율적으로 응용할 수 있기 때문이다. 아래는 가장 기본적으로 사용되는 방식의 반복문이다.
+```Javascript
+for (var i=0; i<5; i++) {
+    console.log(i);
+}
+```
+```Javascript
+var i = 0;
+while (i < 5) {
+    console.log(i);
+    i++;
+}
+```
+```Javascript
+0
+1
+2
+3
+4
+```
+
+for(변수 in 오브젝트 또는 배열)
+```Javascript
+var arr = [10, 20, 30, 40, 50];
+
+for (var i in arr) {
+    console.log(i);
+}
+```
+```Javascript
+0
+1
+2
+3
+4
+```
+배열의 경우 배열의 인덱스가 i에 할당되어 반복한다.
+```Javascript
+var obj = {
+    a: 1,
+    b: 2,
+};
+
+for (var key in obj) {
+    console.log(key + ' : ' + obj[key]);
+}
+```
+```Javascript
+a : 1
+b : 2
+```
+for(변수 of 배열)
+```Javascript
+var arr = [10, 20, 30, 40, 50];
+
+for(var i of arr) {
+    console.log(i);
+}
+```
+```
+10
+20
+30
+40
+50
+```
+`of`의 경우에는 배열의 값이 `i`에 할당되어 반복이 진행된다. 혹은 `forEach`나 `map`을 이용하여 같은 작업을 수행할 수 있다.
+```Javascript
+var arr = [10, 20, 30, 40, 50];
+
+arr.forEach((value, idx) => {
+    console.log(idx, value);
+});
+
+arr.map((value, idx) => {
+    console.log(idx, value);
+});
+```
+```Javascript
+0 10
+1 20
+2 30
+3 40
+4 50
+```
+속도는 `forEach`가 빠르다고 알려져있다. `map`은 함수형 프로그래밍에 사용되는 개념으로 `forEach`와 달리 새로운 객체를 반환한다는 차이가 있다.
