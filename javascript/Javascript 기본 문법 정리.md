@@ -469,7 +469,7 @@ console.log(welcome.slice(-3));
 ```
 
 # 9. 수학 연산
-Math라는 기능을 이용하여 사용할 수 있는 연산자들이다.
+Math라는 기능을 이용하여 사용할 수 있는 연산들이다.
 ```Javascript
 Math.abs(-3);
 // Math.abs(n) : n을 절댓값으로 바꾼다.
@@ -491,4 +491,31 @@ var b = Math.random()*10+10;
 
 var c = Math.floor(Math.random() * (max - min)) + min;
 // min 부터 max - 1 까지 범위의 난수
+```
+
+# 10. 형변환
+```Javascript
+// Number -> String
+var num = 2018;
+var str = String(num); // "2018"
+var str = num.toString(); // "2018"
+
+// String -> Num
+var str = "2018.08";
+var mInt = Number(str); // 2018
+var mInt = parseInt(str); // 2018
+var mFloat = parseFloat(str); // 2018.08
+
+// Object -> String
+var user = {
+    name: '배진오',
+    age: 24,
+};
+console.log(user); // { name: '배진오', age: 24 }
+
+var strUser = JSON.stringify(user); // 문자열 JSON
+console.log(strUser); // "{\"name\":\"배진오\",\"age\":24}"
+
+var strUserToObject = JSON.parse(strUser);
+// JSON 형식의 문자열이면 parse를 이용해서 Object로 변환할 수 있음
 ```
