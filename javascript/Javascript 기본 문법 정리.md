@@ -419,3 +419,51 @@ arr.map((value, idx) => {
 4 50
 ```
 속도는 `forEach`가 빠르다고 알려져있다. `map`은 함수형 프로그래밍에 사용되는 개념으로 `forEach`와 달리 새로운 객체를 반환한다는 차이가 있다.
+
+# 8. 문자열
+문자열은 가장 기본적인 구조인데 이렇게 뒤에 있는 이유는 알아둬야 할 함수가 생각보다 많아서다. 그 중에도 중요한 것만 기록할 예정이다.
+```Javascript
+var welcome = "ONDE Planet is the most peaceful space in the universe";
+
+console.log(welcome.charAt(0));
+// charAt(n) : n번째 문자를 출력한다. 결과는 O
+
+console.log(welcome.charCodeAt(0));
+// charCodeAt(n) : n번째 문자의 유니코드를 출력한다. 결과는 79
+
+console.log(welcome.indexOf("x"));
+// indexOf("?") : ?라는 글자가 있다면 글자의 인덱스를, 없다면 false(-1)을 출력한다. 결과는 -1
+
+console.log(welcome.includes("space"));
+// includes("?") : ?라는 글자가 있다면 true(0), 없다면 false(-1)을 출력한다. 결과는 0
+
+console.log(welcome.replace("peaceful", "nasty"));
+// replace("a", "b") : a를 b로 교체한다. 결과는 ONDE Planet is the most nasty space in the universe.
+
+console.log(welcome.search("universe"));
+// search("?") : ?라는 글자를 검색하여 첫 문자의 시작 지점을 알려준다. 결과는 46
+
+console.log(welcome.slice(0,4));
+// slice(n, n') : n~n'-1 까지의 문자를 가져온다. 결과는 ONDE
+
+console.log(welcome.split(" "));
+// split("?") : ?라는 문자를 기준으로 문자열을 분리한다. 결과는 ONDE,Planet,is,the,most,peaceful...
+
+console.log(welcome.trim());
+// trim() : 앞, 뒤의 공백을 제거하는 역할을 한다. 이 값에서는 앞뒤에 공백이 없으므로 결과가 본래의 문자열과 동일하다.
+
+console.log(welcome.length);
+// length : 문자열의 길이를 반환한다. 결과는 55
+```
+
+## 더 알야할 내용들
+`relace`의 경우에는 처음 발견된 문장만 변경하는데 만일 다수의 문장을 변경하고 싶은 경우엔 어떻게 할 수 있을까? 가령 `replaceAll` 처럼 말이다. 바로 정규표현식을 사용하면 되는데 여기선 자세한 내용을 다루진 않는다. 대략 아래와 같은 모양이다.
+```Javascript
+console.log(welcome.replace(/ /gi, "-"));
+// 모든 공백이 -로 바뀐다.
+```
+`slice`에는 음수를 넣을 수 있다. 음수를 선택하면 뒤에부터 가져오므로 상당히 유용한 기능이며 배열에도 사용할 수 있다.
+```Javascript
+console.log(welcome.slice(-3));
+// 맨 뒤에 3글자만 가져온다.
+```
