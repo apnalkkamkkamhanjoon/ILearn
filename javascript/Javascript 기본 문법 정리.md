@@ -519,3 +519,54 @@ console.log(strUser); // "{\"name\":\"배진오\",\"age\":24}"
 var strUserToObject = JSON.parse(strUser);
 // JSON 형식의 문자열이면 parse를 이용해서 Object로 변환할 수 있음
 ```
+
+# 11. 전개구문
+전개구문은 이름 그대로 배열이나 객체를 전개 시킨다고 생각하면 이해하기 쉬운 것 같다. 
+
+전개구문
+```Javascript
+const numbers = [1, 2, 3, 4, 5];
+consol.log([...numbers, 6, 7, 8 ,9, 10]);
+```
+```Javascript
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+```
+
+위와같이 확장의 개념으로 사용할 수도 있고
+```Javascript
+const numbers = [1, 2, 3, 4, 5];
+const copyNumbers = [...numbers];
+```
+
+복사의 개념으로도 사용할 수 있다. `numbers`를 바로 대입하는 것과는 달리 위 코드는 각각의 값이 복사된 전혀 새로운 객체가 할당된다. 깊은 복사가 이뤄지는 셈이다. 이제 이 이름이 착 달라붙지 않는가? 말그대로 자신의 개체들을 전개시키는 문법이다. 배열에서는 각각의 개체를 전개시키지만 객체에서는 키와 값을 전개시킨다.
+```Javascript
+const user = {
+    name: '한준',
+    age: 17,
+};
+console.log({
+    ...user,
+    hobby: '게임'
+});
+```
+```Javascript
+{ name: '한준', age: 17, hobby: '게임' }
+```
+위와 같이 키와 값을 그대로 전개시킨다.
+```Javascript
+const user = {
+    name: '한준',
+    age: 17,
+};
+console.log({
+    age: 99,
+    ...user,
+});
+```
+```Javascript
+{ name: '한준', age: 17 }
+```
+위와같이 작성하면 전개구문에 의해서 `age`의 값이 덮어 써진다는 점을 고려하자. 전개 구문을 사용한 지점에서 해당 객체를 그대로 불러오는 개념으로 이해하면 될 것 같다.
+
+# 12. 함수형 메서드
+자바스크립트에서는 함수형 프로그래밍에 대부분 사용되는 `map`, `filter`, `reduce` 함수가 제공된다. 이터레이블 객체(배열 등)에서만 사용가능 한 점 참고하자. 우선 아래와 같은 배열에 대해서 각각의 함수의 사용방법을 알아보도록 할 것이다.
