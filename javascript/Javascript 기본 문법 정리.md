@@ -570,3 +570,94 @@ console.log({
 
 # 12. 함수형 메서드
 자바스크립트에서는 함수형 프로그래밍에 대부분 사용되는 `map`, `filter`, `reduce` 함수가 제공된다. 이터레이블 객체(배열 등)에서만 사용가능 한 점 참고하자. 우선 아래와 같은 배열에 대해서 각각의 함수의 사용방법을 알아보도록 할 것이다.
+```Javascript
+const users = [
+    {
+        name: '한준',
+        age: 17,
+        hobby: '게임'
+    },
+    {
+        name: '이운륀',
+        age: 17,
+        hobby: '엉덩이'
+    },
+    {
+        name: '아이론',
+        age: 17,
+        hobby: '엉덩이'
+    },
+];
+```
+
+### map
+`map`은 단순한 반복문이다. 다만 전달한 함수에 맞게 처리된 개체가 담긴 배열이 반환된다. 위 데이터에서 이름과 나이로만 구성된 오브젝트로 재구성 한다고 생각해보자.
+```Javascript
+const newUsers = users.map(function(user) {
+    return {
+        name: user.name,
+        age: user.age
+    };
+});
+console.log(newUsers);
+```
+```Javascript
+[
+  { name: '한준', age: 17 },
+  { name: '이운륀', age: 17 },
+  { name: '아이론', age: 17 }
+]
+```
+
+### filter
+필터는 반복을 진행하면서 전달한 함수의 결과가 `true`인 개체의 `배열`을 리턴하는 함수이다. 취미가 '엉덩이'인 사람들만 뽑아보자.
+```Javascript
+const newUsers = users.filter(function(user) {
+    return user.hobby == '엉덩이'
+});
+console.log(newUsers);
+```
+```Javascript
+{
+    { name : '이운륀', age : 17, hobby : '엉덩이'}
+    { name : '아이론', age : 17, hobby : '엉덩이'}
+}
+```
+그럼 이번에는 필터와 맵을 함께 사용하여 취미가 음악인 사람의 이름만 출력해보자. 이번에는 위와 다르게 화살표 함수를 이용하여 문법을 간소화 시켜보았다.
+```Javascript
+const newUsers = users
+    .filter(user => user.hobby == '음악')
+    .map(user => user.name);
+console.log(newUsers);
+```
+```Javascript
+[ '이운륀', '아이론' ]
+```
+
+### reduce
+`reduce`는 배열의 개체를 누적으로 처리하기 위해서 사용된다. 누적으로 처리할 일이 뭐가 있을까? 예를들면 합계를 내거나... 배열을 오브젝트로 만들거나... 지금 당장 생각나는 부분은 2가지 인 것 같다. 그 외 다양하게 사용될 수 있을거다.
+
+우선 `reduce`를 활용해 모든 유저의 나이의 평균을 내보자.
+```Javascript
+const userTotalAge = users.reduce((acc, user) => acc += user.age, 0);
+console.log(userTotalAge / users.length);
+```
+```Javascript
+24.666666666666668
+```
+`reduce`는 `map`이나 `filter`와 다르게 개체뿐만 아니라 누적된 값이 함께 매개변수로 들어온다. 필자는 이 변수를 대부분 acc(accumulate)라고 표현한다. 또한 중요한 점은 함수 다음에 초기값을 넣어줬다. 위 코드에서는 `0.` 맨 처음 실행될 때 `acc`의 값으로 `reduce`에서는 이 초기값을 꼭 설정해야 하는점을 기억하자.
+
+이번에는 각각의 이름을 키로 나이를 값으로 사용하는 오브젝트를 `reduce`를 이용해서 생성해보자.
+```Javascript
+const usersObject = users.reduce((acc, user) => {
+    return {
+        ...acc,
+        [user.name]: user.age
+    }
+}, {})
+console.log(usersObject);
+```
+```Javascript
+{ '한준': 17, '이운륀': 17, '아이론': 17 }
+```
+전개구문을 이용하여 기존 오브젝트의 키와 값을 살리면서 새로운 키와 값을 추가하는 방식이다.
