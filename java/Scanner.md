@@ -1,5 +1,4 @@
 # Scanner
-
 ```
 import java.util.Scanner;	// Scanner 클래스 호출
  
