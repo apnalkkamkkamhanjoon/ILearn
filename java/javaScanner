@@ -1,7 +1,4 @@
-# __java 코드__
-## java의 자료형
-> boolean, short, int, long, float, double, char
-## __Scanner__
+# __Scanner__
 ```
 import java.util.Scanner;	// Scanner 클래스 호출
  
