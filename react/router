@@ -1,0 +1,8 @@
+```Javascript
+import { Routes } from "react-router"; 
+<Router>
+      <Routes>
+        <Route path="/" element={<Main />} />
+      </Routes>
+    </Router>
+```
