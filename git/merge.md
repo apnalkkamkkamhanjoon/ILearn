@@ -4,7 +4,8 @@
 git merge명령어를 적어준다.<br />
 예를 들어 master 브랜치에 dev 브랜치에서 커밋한 내용을 merge하고 싶다<br />
 master 브랜치로 git checkout 명령어를 통해 이동한 후<br />
-git merge 해주면 된다.
+git merge 명령어를 실행해주면 된다.<br />
+- dev브랜치의 변경 내용이 master브랜치로 병합
 ```
 > git checkout master
 > git merge
