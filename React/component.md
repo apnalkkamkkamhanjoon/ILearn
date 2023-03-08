@@ -15,4 +15,4 @@
 이 코드는 (함수명) 이라는 컴포넌트를 내보내겠다는 뜻이다. 이렇게 해주면 다른 컴포넌트에서 불러와서 사용 할 수 있다.<br/>
 ex)<br/>
 ``export default Hello``<br/>
-`` import Hello from "./Hello``
+``import Hello from "./Hello``
