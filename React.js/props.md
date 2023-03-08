@@ -72,7 +72,8 @@ function App() {
 ```
 결과는 <br/>
 <img src="img/Hello.png"/>
-아렇게 나올것이다.
+
+이렇게 나올것이다.
 
 ## props.children
 컴포넌트 태그 사이에 넣은 값을 조회하고 싶다면 `props.children`을 조회하면 된다.<br/>
