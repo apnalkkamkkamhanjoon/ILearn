@@ -60,6 +60,7 @@ app.on("activate", () => {
 ```
 
 ### package.json 수정
+package.json에 밑 코드들을 추가시켜줍니다.
 ```json
 "main": "./public/main.js",
 
