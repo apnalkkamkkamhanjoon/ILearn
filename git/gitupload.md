@@ -17,3 +17,12 @@
 `git remote add origin <주소>`로 원격 저장소 위치를 알려줍니다.
 
 `git push origin master`로 원격 저장소에 넣어줍니다.
+
+### 브렌치 만들기
+처음 Git을 사용하면 기본적으로 master 브랜치가 생깁니다.<br/>
+작업자들은 자신만의 브렌치를 만들어 자신의 브렌치에서 작업을 합니다.<br/>
+그리고 작업이 완료되면 master에서 병합(MERGE)를 해줍니다.
+
+`git checkout -b <브랜치 이름>`은 브랜치를 만들고 브렌치로 이동하는 명령어입니다.<br/>
+`git checkout -b feature/userProfile` 이런 식으로 카테고리 내 브랜치를 생성할 수도 있다.
+
