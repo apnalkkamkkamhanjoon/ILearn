@@ -1,6 +1,9 @@
 # React
 > React는 Facebook에서 개발한 UI 라이브러리로, 사용자 인터페이스를 만들기 위한 자바스크립트 라이브러리입니다. React는 컴포넌트 기반으로 작동하며, 데이터의 변화에 따라 UI를 업데이트하는 데 사용됩니다.
 
+### How to start
+`npx create-react-app 프로젝트명`
+
 ### 특징
 ```
 Data Flow
