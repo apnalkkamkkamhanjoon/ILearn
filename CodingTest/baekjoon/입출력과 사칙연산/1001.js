@@ -9,3 +9,4 @@ rl.on('line', line => {
   console.log(a - b);
   rl.close();
 });
+
