@@ -2,7 +2,7 @@
 `20230503`
 
 # React
-  ## React 기초
+  ## 기초
   - ### [React](/React/React.md)
   - ### [Component](/React/Component.md)
   - ### [JSX](/React//JSX.md)
@@ -20,8 +20,10 @@
   - ### [Ref](/React/Ref.md)
   - ### [useEffect](/React/useEffect.md)
   - ### [useReducer](/React/useReducer.md)
+  - ### [useMemo](/React/useMemo.md)
+  - ### [useCallback](/React/useCallback.md)
 
-  ## React 심화
+  ## 고급
   - 이잉
 ---
 
