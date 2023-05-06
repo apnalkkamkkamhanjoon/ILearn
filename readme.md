@@ -8,7 +8,6 @@
   - ### [JSX](/React//JSX.md)
   - ### [DOM](/React/DOM.md)
   - ### [Props](/React/Props.md)
-  - ### [State](/React/State.md)
   - ### [EventHandling](/React/Event.md)
   - ### [Rendering](/React/Rendering.md)
   - ### [Map](/React/Map.md)
@@ -17,6 +16,7 @@
   - ### [CleanupFunction](/React//CleanupFunction.md)
 
   ## Hooks
+  - ### [State](/React/State.md)
   - ### [Ref](/React/Ref.md)
   - ### [useEffect](/React/useEffect.md)
   - ### [useReducer](/React/useReducer.md)
