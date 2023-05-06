@@ -24,7 +24,7 @@
   - ### [useCallback](/React/useCallback.md)
 
   ## 고급
-  - 이잉
+  - ### [React.memo](/React/React.memo.md)
 ---
 
 # CodingTest
