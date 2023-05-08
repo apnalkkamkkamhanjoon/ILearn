@@ -30,6 +30,7 @@
 
 # Redux
 - ### [Redux](/Redux/Redux.md)
+- ### [Keyword](/Redux/Keyword.md)
 
 
 ---
