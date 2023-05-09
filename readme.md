@@ -22,6 +22,7 @@
   - ### [useMemo](/React/useMemo.md)
   - ### [useCallback](/React/useCallback.md)
   - ### [useParams](/React/useParams.md)
+  - ### [useNavigate](/React/useNavigate.md)
 
   ## 고급
   - ### [React.memo](/React/React.memo.md)
