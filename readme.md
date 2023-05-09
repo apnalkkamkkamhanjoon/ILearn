@@ -10,7 +10,6 @@
   - ### [Props](/React/Props.md)
   - ### [EventHandling](/React/Event.md)
   - ### [Rendering](/React/Rendering.md)
-  - ### [Map](/React/Map.md)
   - ### [Style](/React/Style.md)
   - ### [Forder](/React/Forder.md)
   - ### [CleanupFunction](/React//CleanupFunction.md)
@@ -25,6 +24,7 @@
 
   ## 고급
   - ### [React.memo](/React/React.memo.md)
+  - ### [Life_Cycle](/React/Lifecycle.md)
 ---
 
 # CodingTest
