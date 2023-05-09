@@ -21,6 +21,7 @@
   - ### [useReducer](/React/useReducer.md)
   - ### [useMemo](/React/useMemo.md)
   - ### [useCallback](/React/useCallback.md)
+  - ### [useParams](/React/useParams.md)
 
   ## 고급
   - ### [React.memo](/React/React.memo.md)
