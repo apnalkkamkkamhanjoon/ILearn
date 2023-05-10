@@ -38,6 +38,7 @@
 - ### [QueryString](/React/queryString.md)
 - ### [CSR](/React/CSR.md)
 - ### [SSR](/React/SSR.md)
+- ### [SSR vs CSR](/React/SSR%20vs%20CSR.md)
 
 ## Redux
 
