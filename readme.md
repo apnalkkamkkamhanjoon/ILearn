@@ -36,6 +36,7 @@
 - ### [Life_Cycle](/React/Lifecycle.md)
 - ### [Router](/React/Router.md)
 - ### [QueryString](/React/queryString.md)
+- ### [CSR](/React/CSR.md)
 
 ## Redux
 
