@@ -35,6 +35,7 @@
 - ### [React.memo](/React/React.memo.md)
 - ### [Life_Cycle](/React/Lifecycle.md)
 - ### [Router](/React/Router.md)
+- ### [QueryString](/React/queryString.md)
 
 ## Redux
 
