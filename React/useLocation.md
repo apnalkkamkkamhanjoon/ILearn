@@ -30,7 +30,6 @@ function About() {
     console.log(location.search);
     return (
         <div>
-            <h1>소개</h1>
             <h2>쿼리스트링: {location.search}</h2>
             // location.search의 값: ?detail=true&mode=1
         </div>
