@@ -28,6 +28,7 @@
 - ### [useParams](/React/useParams.md)
 - ### [useNavigate](/React/useNavigate.md)
 - ### [useLocation](/React/useLocation.md)
+- ### [useSearchParams](/React/useSearchParams.md)
 
 ## 고급
 
