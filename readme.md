@@ -13,7 +13,7 @@
 - ### [Props](/React/Props.md)
 - ### [EventHandling](/React/Event.md)
 - ### [Rendering](/React/Rendering.md)
-- ### [Style](/React/Style.md)
+- ### [ReactStyle](/React/Style.md)
 - ### [Forder](/React/Forder.md)
 - ### [CleanupFunction](/React//CleanupFunction.md)
 
