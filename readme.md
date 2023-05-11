@@ -2,10 +2,14 @@
 
 `20230503`
 
+# Frontend
+- ### [CSR](/Frontend/CSR.md)
+- ### [SSR](/Frontend/SSR.md)
+- ### [SSR VS CSR](/Frontend/SSR%20vs%20CSR.md)
+- ### [QueryString](/Frontend/queryString.md)
+
+---
 # React
-
-## 기초
-
 - ### [React](/React/React.md)
 - ### [Component](/React/Component.md)
 - ### [JSX](/React//JSX.md)
@@ -16,6 +20,9 @@
 - ### [ReactStyle](/React/Style.md)
 - ### [Forder](/React/Forder.md)
 - ### [CleanupFunction](/React//CleanupFunction.md)
+- ### [React.memo](/React/React.memo.md)
+- ### [Life_Cycle](/React/Lifecycle.md)
+- ### [Router](/React/Router.md)
 
 ## Hooks
 
@@ -30,22 +37,11 @@
 - ### [useLocation](/React/useLocation.md)
 - ### [useSearchParams](/React/useSearchParams.md)
 
-## 고급
-
-- ### [React.memo](/React/React.memo.md)
-- ### [Life_Cycle](/React/Lifecycle.md)
-- ### [Router](/React/Router.md)
-- ### [QueryString](/React/queryString.md)
-- ### [CSR](/React/CSR.md)
-- ### [SSR](/React/SSR.md)
-- ### [SSR vs CSR](/React/SSR%20vs%20CSR.md)
-
 ## Redux
 
 - ### [Redux](/React/Redux/Redux.md)
 - ### [Keyword](/React/Redux/Keyword.md)
 - ### [Rule](/React/Redux/Rule.md)
----
 
 ---
 
