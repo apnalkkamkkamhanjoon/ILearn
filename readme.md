@@ -10,6 +10,7 @@
 - ### [MPA](/Frontend/SPA.md)
 - ### [Scope](/Frontend/Scope.md)
 - ### [QueryString](/Frontend/queryString.md)
+- ### [URI](/Frontend/URI.md)
 
 ---
 # React
