@@ -6,7 +6,11 @@
 - ### [CSR](/Frontend/CSR.md)
 - ### [SSR](/Frontend/SSR.md)
 - ### [SSR VS CSR](/Frontend/SSR%20vs%20CSR.md)
+- ### [SPA](/Frontend/SPA.md)
+- ### [MPA](/Frontend/SPA.md)
+- ### [Scope](/Frontend/Scope.md)
 - ### [QueryString](/Frontend/queryString.md)
+- ### [URI](/Frontend/URI.md)
 
 ---
 # React
