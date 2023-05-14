@@ -13,6 +13,7 @@
 - ### [URI](/Frontend/URI.md)
 - ### [URL](/Frontend/URL.md)
 - ### [URI vs URL](/Frontend/URI%20vs%20URL.md)
+- ### [REST](/Frontend/REST.md)
 ---
 # React
 - ### [React](/React/React.md)
