@@ -14,6 +14,7 @@
 - ### [URL](/Frontend/URL.md)
 - ### [URI vs URL](/Frontend/URI%20vs%20URL.md)
 - ### [REST](/Frontend/REST.md)
+- ### [HTTP Method](/Frontend/HTTP%20Method.md)
 ---
 # React
 - ### [React](/React/React.md)
