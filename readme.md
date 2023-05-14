@@ -12,7 +12,7 @@
 - ### [QueryString](/Frontend/queryString.md)
 - ### [URI](/Frontend/URI.md)
 - ### [URL](/Frontend/URL.md)
-- 
+- ### [URI vs URL](/Frontend/URI%20vs%20URL.md)
 ---
 # React
 - ### [React](/React/React.md)
