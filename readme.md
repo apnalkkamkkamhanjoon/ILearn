@@ -2,10 +2,19 @@
 
 `20230503`
 
+# Frontend
+- ### [CSR](/Frontend/CSR.md)
+- ### [SSR](/Frontend/SSR.md)
+- ### [SSR VS CSR](/Frontend/SSR%20vs%20CSR.md)
+- ### [SPA](/Frontend/SPA.md)
+- ### [MPA](/Frontend/SPA.md)
+- ### [Scope](/Frontend/Scope.md)
+- ### [QueryString](/Frontend/queryString.md)
+- ### [URI](/Frontend/URI.md)
+- ### [URL](/Frontend/URL.md)
+- 
+---
 # React
-
-## 기초
-
 - ### [React](/React/React.md)
 - ### [Component](/React/Component.md)
 - ### [JSX](/React//JSX.md)
@@ -13,9 +22,12 @@
 - ### [Props](/React/Props.md)
 - ### [EventHandling](/React/Event.md)
 - ### [Rendering](/React/Rendering.md)
-- ### [Style](/React/Style.md)
+- ### [ReactStyle](/React/Style.md)
 - ### [Forder](/React/Forder.md)
 - ### [CleanupFunction](/React//CleanupFunction.md)
+- ### [React.memo](/React/React.memo.md)
+- ### [Life_Cycle](/React/Lifecycle.md)
+- ### [Router](/React/Router.md)
 
 ## Hooks
 
@@ -27,19 +39,14 @@
 - ### [useCallback](/React/useCallback.md)
 - ### [useParams](/React/useParams.md)
 - ### [useNavigate](/React/useNavigate.md)
-
-## 고급
-
-- ### [React.memo](/React/React.memo.md)
-- ### [Life_Cycle](/React/Lifecycle.md)
-- ### [Router](/React/Router.md)
+- ### [useLocation](/React/useLocation.md)
+- ### [useSearchParams](/React/useSearchParams.md)
 
 ## Redux
 
 - ### [Redux](/React/Redux/Redux.md)
 - ### [Keyword](/React/Redux/Keyword.md)
 - ### [Rule](/React/Redux/Rule.md)
----
 
 ---
 
