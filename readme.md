@@ -26,6 +26,7 @@
 # JAVASCRIPT
 
 - ### [Hoisting](/JAVASCRIPT/Hoisting.md)
+- ### [JSON](/JAVASCRIPT/JSON.md)
 
 ---
 
