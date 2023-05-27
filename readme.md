@@ -28,6 +28,7 @@
 - ### [XML](/JAVASCRIPT/XML.md)
 - ### [JSON](/JAVASCRIPT/JSON.md)
 - ### [Hoisting](/JAVASCRIPT/Hoisting.md)
+- ### [Type](/JAVASCRIPT/Type.md)
 - ### [This](/JAVASCRIPT/This.md)
 
 ---
