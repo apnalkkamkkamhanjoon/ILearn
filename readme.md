@@ -25,9 +25,11 @@
 
 # JAVASCRIPT
 
-- ### [Hoisting](/JAVASCRIPT/Hoisting.md)
-- ### [JSON](/JAVASCRIPT/JSON.md)
 - ### [XML](/JAVASCRIPT/XML.md)
+- ### [JSON](/JAVASCRIPT/JSON.md)
+- ### [Hoisting](/JAVASCRIPT/Hoisting.md)
+- ### [Type](/JAVASCRIPT/Type.md)
+- ### [This](/JAVASCRIPT/This.md)
 
 ---
 
@@ -35,9 +37,9 @@
 
 - ### [React](/React/React.md)
 - ### [CRA](/React/CRA.md)
-- ### [Component](/React/Component.md)
 - ### [JSX](/React//JSX.md)
 - ### [DOM](/React/DOM.md)
+- ### [Component](/React/Component.md)
 - ### [Props](/React/Props.md)
 - ### [Map](/React/Map.md)
 - ### [EventHandling](/React/Event.md)
