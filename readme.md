@@ -24,8 +24,11 @@
 - ### [XML](/JAVASCRIPT/XML.md)
 - ### [JSON](/JAVASCRIPT/JSON.md)
 - ### [Hoisting](/JAVASCRIPT/Hoisting.md)
+- ### [Scope](/JAVASCRIPT/Scope.md)
 - ### [Type](/JAVASCRIPT/Type.md)
 - ### [This](/JAVASCRIPT/This.md)
+- ### [ESLint](/JAVASCRIPT/ESLint.md)
+- ### [Prettier](/JAVASCRIPT/Prettier.md)
 
 ---
 
