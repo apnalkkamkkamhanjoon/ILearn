@@ -28,6 +28,7 @@
 - ### [Type](/JAVASCRIPT/Type.md)
 - ### [This](/JAVASCRIPT/This.md)
 - ### [ESLint](/JAVASCRIPT/ESLint.md)
+- ### [Prettier](/JAVASCRIPT/Prettier.md)
 
 ---
 
