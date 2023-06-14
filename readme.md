@@ -65,6 +65,10 @@
 - ### [useLocation](/React/useLocation.md)
 - ### [useSearchParams](/React/useSearchParams.md)
 
+## Etc
+
+- ### [React-Icons](/React/etc/ReactIcons.md)
+
 ## Redux
 
 - ### [Redux](/React/Redux/Redux.md)
