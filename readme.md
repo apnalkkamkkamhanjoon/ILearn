@@ -18,7 +18,6 @@
 - ### [HTTP Protocol](/Frontend/HTTP%20Protocol.md)
 - ### [CICD](/Frontend/CICD.md)
 
-
 ---
 
 # JAVASCRIPT
@@ -74,7 +73,13 @@
 ## Redux
 
 - ### [Redux](/React/Redux/Redux.md)
-- ### [Keyword](/React/Redux/Keyword.md)
+- ### [Use Redux](/React/Redux/UseRedux.md)
+- ### [Action](/React/Redux/Action.md)
+- ### [Action Creator](/React/Redux/Action%20Creator.md)
+- ### [Reducer](/React/Redux/Reducer.md)
+- ### [Store](/React/Redux/Store.md)
+- ### [Dispatch](/React/Redux/Dispatch.md)
+- ### [Subscribe](/React/Redux/Subscribe.md)
 - ### [Rule](/React/Redux/Rule.md)
 
 ---
