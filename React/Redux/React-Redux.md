@@ -34,7 +34,7 @@ $ npm install redux
     "semi":true,
     "useTabs":false,
     "tabWidth":2,
-    "trailingComma";"all",
+    "trailingComma":"all",
     "printWidth":80
 }
 ```
