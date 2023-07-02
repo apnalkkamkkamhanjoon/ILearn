@@ -52,6 +52,7 @@
 - ### [Life_Cycle](/React/Lifecycle.md)
 - ### [Router](/React/Router.md)
 - ### [UUID](/React/UUID.md)
+- ### [React-Icons](/React/etc/ReactIcons.md)
 
 ## Hooks
 
@@ -66,11 +67,9 @@
 - ### [useLocation](/React/Hooks/useLocation.md)
 - ### [useSearchParams](/React/Hooks/useSearchParams.md)
 
-## Etc
+---
 
-- ### [React-Icons](/React/etc/ReactIcons.md)
-
-## Redux
+# Redux
 
 - ### [Redux](/React/Redux/Redux.md)
 - ### [Action](/React/Redux/Action.md)
