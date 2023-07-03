@@ -71,12 +71,13 @@
 
 # Redux
 
-- ### [Redux](/React/Redux/Redux.md)
-- ### [Action](/React/Redux/Action.md)
-- ### [Action Creator](/React/Redux/Action%20Creator.md)
-- ### [Reducer](/React/Redux/Reducer.md)
-- ### [Store](/React/Redux/Store.md)
-- ### [Dispatch](/React/Redux/Dispatch.md)
-- ### [Subscribe](/React/Redux/Subscribe.md)
-- ### [Rule](/React/Redux/Rule.md)
-- ### [React-Redux](/React/Redux/React-Redux.md)
+- ### [Redux](/Redux/Redux.md)
+- ### [Action](/Redux/Action.md)
+- ### [Action Creator](/Redux/Action%20Creator.md)
+- ### [Reducer](/Redux/Reducer.md)
+- ### [Store](/Redux/Store.md)
+- ### [Dispatch](/Redux/Dispatch.md)
+- ### [Subscribe](/Redux/Subscribe.md)
+- ### [Rule](/Redux/Rule.md)
+- ### [React-Redux](/Redux/React-Redux.md)
+- ### [Reducer vs ExtraReducer](/Redux/Reducer%20vs%20ExtraReducer.md)
