@@ -81,3 +81,4 @@
 - ### [Rule](/Redux/Rule.md)
 - ### [React-Redux](/Redux/React-Redux.md)
 - ### [Reducer vs ExtraReducer](/Redux/Reducer%20vs%20ExtraReducer.md)
+- ### [createAsyncThunk](/Redux/createAsyncThunk.md)
