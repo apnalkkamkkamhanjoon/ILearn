@@ -84,3 +84,7 @@
 - ### [ReduxToolkit](/Redux/ReduxToolkit.md)
 - ### [Reducer vs ExtraReducer](/Redux/Reducer%20vs%20ExtraReducer.md)
 - ### [createAsyncThunk](/Redux/createAsyncThunk.md)
+
+# Typescirpt
+
+- ### [typescript](/Typescript/typescript.md)
