@@ -88,4 +88,5 @@
 
 # Typescirpt
 
-- ### [typescript](/Typescript/typescript.md)
+- ### [Typescript](/Typescript/typescript.md)
+- ### [Function](/Typescript/function.md)
