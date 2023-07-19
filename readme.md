@@ -81,6 +81,7 @@
 - ### [Subscribe](/Redux/Subscribe.md)
 - ### [Rule](/Redux/Rule.md)
 - ### [React-Redux](/Redux/React-Redux.md)
+- ### [Redux-Thunk](/Redux/Redux-thunk.md)
 - ### [ReduxToolkit](/Redux/ReduxToolkit.md)
 - ### [Reducer vs ExtraReducer](/Redux/Reducer%20vs%20ExtraReducer.md)
 - ### [createAsyncThunk](/Redux/createAsyncThunk.md)
