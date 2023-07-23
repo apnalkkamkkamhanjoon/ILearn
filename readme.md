@@ -91,3 +91,4 @@
 
 - ### [Typescript](/Typescript/typescript.md)
 - ### [Function](/Typescript/function.md)
+- ### [Type]
