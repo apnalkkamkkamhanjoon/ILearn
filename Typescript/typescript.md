@@ -14,20 +14,3 @@
 
 ++ CRA  
 `npx create-react-app my-app --template typescript`
-
-## Type
-
-> 12가지의 타입이 있다.
-
-- Boolean
-- Number
-- Stirng
-- Object
-- Array
-- Tuple
-- Enum
-- any
-- void
-- null
-- undefined
-- never
