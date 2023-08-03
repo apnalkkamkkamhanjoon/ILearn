@@ -70,6 +70,7 @@
 - ### [useNavigate](/React/Hooks/useNavigate.md)
 - ### [useLocation](/React/Hooks/useLocation.md)
 - ### [useSearchParams](/React/Hooks/useSearchParams.md)
+- ### [useSWR](/React/Hooks/useSWR.md)
 
 ---
 
