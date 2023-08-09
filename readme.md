@@ -107,3 +107,4 @@
 # Nextjs
 
 - ###[NextJs](/Next/Next.md)
+- ###[NextFunction](/Next/NextFunc.md)
