@@ -111,3 +111,4 @@
 - ### [\_document.tsx](/Next/Document.md)
 - ### [\_app.tsx](/Next/App.md)
 - ### [StyleComponent](/Next/StyleComponent.md)
+- ### [Link](/Next/Link.md)
