@@ -109,3 +109,4 @@
 - ### [NextJs](/Next/Next.md)
 - ### [NextFunction](/Next/NextFunc.md)
 - ### [\_document.tsx](/Next/Document.md)
+- ### [\_app.tsx](/Next/App.md)
