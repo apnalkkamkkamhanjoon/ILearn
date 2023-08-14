@@ -113,3 +113,4 @@
 - ### [StyleComponent](/Next/StyleComponent.md)
 - ### [Link](/Next/Link.md)
 - ### [Dynamic Route](/Next/Dynamic%20Url.md)
+- ### [Prefetching](/Next/Prefetching.md)
