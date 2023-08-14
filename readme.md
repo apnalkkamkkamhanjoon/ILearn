@@ -115,3 +115,4 @@
 - ### [Dynamic Route](/Next/Dynamic%20Url.md)
 - ### [Prefetching](/Next/Prefetching.md)
 - ### [Router](/Next/Router.md)
+- ### [Server Side LifeCycle](/Next/Sever%20Side%20Lifecycle.md)
