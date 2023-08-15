@@ -19,6 +19,7 @@
 - ### [Multipart/form-data](/Frontend/Multipart.md)
 - ### [CICD](/Frontend/CICD.md)
 - ### [Event](/Frontend/Event.md)
+- ### [OAuth](/Frontend/OAuth.md)
 
 ---
 
