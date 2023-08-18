@@ -104,6 +104,7 @@
 - ### [Function](/Typescript/function.md)
 - ### [Type](/Typescript/type.md)
 - ### [Interface](/Typescript/interface.md)
+- ### [Enum](/Typescript/Enum.md)
 
 # Nextjs
 
