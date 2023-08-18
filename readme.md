@@ -106,6 +106,7 @@
 - ### [Interface](/Typescript/interface.md)
 - ### [Enum](/Typescript/Enum.md)
 - ### [Union Type](/Typescript/Union%20Type.md)
+- ### [Intersection Type](/Typescript/Intersection%20Type.md)
 
 # Nextjs
 
