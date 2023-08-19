@@ -20,6 +20,7 @@
 - ### [CICD](/Frontend/CICD.md)
 - ### [Event](/Frontend/Event.md)
 - ### [OAuth](/Frontend/OAuth.md)
+- ### [JWT](/Frontend/JWT.md)
 
 ---
 
