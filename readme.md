@@ -21,6 +21,7 @@
 - ### [Event](/Frontend/Event.md)
 - ### [OAuth](/Frontend/OAuth.md)
 - ### [JWT](/Frontend/JWT.md)
+- ### [Cookie](/Frontend/Cookie.md)
 
 ---
 
