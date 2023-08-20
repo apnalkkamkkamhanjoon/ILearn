@@ -37,6 +37,7 @@
 - ### [ESLint](/JAVASCRIPT/ESLint.md)
 - ### [Prettier](/JAVASCRIPT/Prettier.md)
 - ### [Axios](/JAVASCRIPT/Axios.md)
+- ### [Closure](/JAVASCRIPT/Closure.md)
 
 ---
 
