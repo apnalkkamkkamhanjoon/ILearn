@@ -25,6 +25,7 @@
 - ### [Mocking](/Frontend/Mocking.md)
 - ### [Encoding](/Frontend/Encode.md)
 - ### [Decoding](/Frontend/Decode.md)
+- ### [CSRF](/Frontend/CSRF.md)
 
 ---
 
