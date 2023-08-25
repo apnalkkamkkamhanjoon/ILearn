@@ -23,6 +23,7 @@
 - ### [Cookie](/Frontend/Cookie.md)
 - ### [Sessoin](/Frontend/Session.md)
 - ### [Mocking](/Frontend/Mocking.md)
+- ### [Encoding](/Frontend/Encode.md)
 
 ---
 
