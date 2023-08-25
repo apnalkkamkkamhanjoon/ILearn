@@ -38,6 +38,7 @@
 - ### [Prettier](/JAVASCRIPT/Prettier.md)
 - ### [Axios](/JAVASCRIPT/Axios.md)
 - ### [Closure](/JAVASCRIPT/Closure.md)
+- ### [Jest](/JAVASCRIPT/Jest.md)
 
 ---
 
