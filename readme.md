@@ -33,6 +33,7 @@
 
 - ### [XML](/JAVASCRIPT/XML.md)
 - ### [JSON](/JAVASCRIPT/JSON.md)
+- ### [jQuery](/JAVASCRIPT/Jquery.md)
 - ### [Hoisting](/JAVASCRIPT/Hoisting.md)
 - ### [Scope](/JAVASCRIPT/Scope.md)
 - ### [Type](/JAVASCRIPT/Type.md)
