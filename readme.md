@@ -1,4 +1,4 @@
-# Frontend
+# CS
 
 - ### [SSR VS CSR](/Frontend/SSR%20vs%20CSR.md)
 - ### [CSR](/Frontend/CSR.md)
