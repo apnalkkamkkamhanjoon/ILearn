@@ -70,6 +70,7 @@
 - ### [ReactStyle](/React/Style.md)
 - ### [Forder](/React/Forder.md)
 - ### [Props Drilling](/React/Props%20Drilling.md)
+- ### [Query](/React/React-query.md)
 
 ## Hooks
 
