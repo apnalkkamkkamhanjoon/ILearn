@@ -1,5 +1,3 @@
-# 공부한 것들을 기록해놓는 곳
-
 # CS
 
 - ### [SSR VS CSR](/Frontend/SSR%20vs%20CSR.md)
